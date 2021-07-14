@@ -8,6 +8,6 @@ export const router = createRouter({
     routes: [
         { path: "/", component: ImageList},
         { path: "/upload", component: UploadForm},
-        { path: '/oauth2', component: AuthHandler}
+        { path: '/oauth2/callback', component: AuthHandler}
     ]
 })
